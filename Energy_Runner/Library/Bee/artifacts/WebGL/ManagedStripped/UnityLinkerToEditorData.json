@@ -5,6 +5,14 @@
         "name": "Animation",
         "dependencies": [
           {
+            "name": "Animation",
+            "scenes": [
+              "Assets/Scenes/Game.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "AnimationClip",
             "scenes": [
               "Assets/Scenes/Game.unity"
@@ -43,6 +51,12 @@
             "icon": null
           },
           {
+            "name": "AvatarMask",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Motion",
             "scenes": [],
             "dependencyType": 1,
@@ -53,6 +67,12 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
           }
         ]
       },
@@ -62,7 +82,9 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -71,14 +93,18 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -92,10 +118,26 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/Game.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Game.unity"
+            ],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
           }
         ]
       },
@@ -117,7 +159,9 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -139,7 +183,9 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -161,7 +207,9 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -177,7 +225,9 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -205,7 +255,9 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -215,7 +267,9 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -224,7 +278,9 @@
           },
           {
             "name": "LightProbes",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Game.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -237,7 +293,9 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -253,7 +311,9 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -287,7 +347,9 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -303,7 +365,9 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -313,7 +377,9 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -347,7 +413,9 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -363,7 +431,9 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -397,7 +467,9 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -427,7 +499,9 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -507,6 +581,12 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by IMGUI Module",
             "scenes": [],
             "dependencyType": 2,
@@ -529,6 +609,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.physics"
+          },
+          {
+            "name": "Required by Physics2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.physics2d"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -571,6 +657,17 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.webgl"
+          }
+        ]
+      },
+      {
+        "name": "Director",
+        "dependencies": [
+          {
+            "name": "PlayableDirector",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
           }
         ]
       },
@@ -637,14 +734,6 @@
             "icon": null
           },
           {
-            "name": "MeshCollider",
-            "scenes": [
-              "Assets/Scenes/Game.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
@@ -655,6 +744,47 @@
             "scenes": [
               "Assets/Scenes/Game.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "SphereCollider",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Physics2D",
+        "dependencies": [
+          {
+            "name": "Collider2D",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "CompositeCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Physics2DSettings",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "PolygonCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody2D",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           }
@@ -693,6 +823,12 @@
             "icon": "package/com.unity.modules.core"
           },
           {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by IMGUI Module",
             "scenes": [],
             "dependencyType": 2,
@@ -715,6 +851,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.physics"
+          },
+          {
+            "name": "Required by Physics2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.physics2d"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -801,7 +943,7 @@
             "name": "Font",
             "scenes": [
               "Assets/Scenes/Game.unity",
-              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
             "dependencyType": 0,
@@ -845,7 +987,9 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
@@ -861,7 +1005,9 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game.unity",
+              "Assets/Scenes/GameOver.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/MenuOptions.unity"
             ],
