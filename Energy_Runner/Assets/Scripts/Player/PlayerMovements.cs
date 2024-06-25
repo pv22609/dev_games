@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 using System;
+using Unity.VisualScripting;
 
 public class ChangeLane : MonoBehaviour
 {
@@ -15,9 +16,10 @@ public class ChangeLane : MonoBehaviour
     private int currentLane = 1; // 0 = Left, 1 = Middle, 2 = Right
     private bool isChangingLane = false;
 
-    public float jumpForce = 7f; // Força do salto
     private Rigidbody rb; // Referência ao componente Rigidbody
-    private bool isGrounded = true; // Verifica se o jogador está no chão
+
+    public GameObject level2Objects; // Referência ao GameObject pai com a tag "ObjLevel2"
+    private int checkpointPassCount = 0; // Contador de passagens pelo checkpoint
 
     void Start()
     {
@@ -36,13 +38,6 @@ public class ChangeLane : MonoBehaviour
         {
             currentLane++;
             StartCoroutine(SwitchLane());
-        }
-
-        // Salto
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
         }
     }
 
@@ -122,23 +117,71 @@ public class ChangeLane : MonoBehaviour
         return closestPosition;
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collider)
     {
-        // Verifica se o jogador colidiu com o chão (ou outra superfície adequada)
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collider.gameObject.CompareTag("Barreira"))
         {
-            Console.WriteLine("Estou a tocar no chão!!");
-            isGrounded = true;
+            Debug.Log("Bati numa barreira!!");
+            Destroy(collider.gameObject);
+
+            // Reduz a vida no LifeController
+            LifeController lifeController = FindObjectOfType<LifeController>();
+            if (lifeController != null)
+            {
+                lifeController.ReduceLife(10f); // Reduz a vida em 10 unidades
+            }
+        }
+
+        if (collider.gameObject.CompareTag("Clock"))
+        {
+            Debug.Log("Bati num clock!!");
+            Destroy(collider.gameObject);
+
+            // Aumenta o tempo no TimeController
+            TimeController timeController = FindObjectOfType<TimeController>();
+            if (timeController != null)
+            {
+                timeController.IncreaseTime(7f); // Aumenta o tempo em 7 segundos
+            }
+        }
+
+        if (collider.gameObject.CompareTag("Bottle"))
+        {
+            Debug.Log("Bati numa Bottle!!");
+            Destroy(collider.gameObject);
+
+            // Aumenta a vida no LifeController
+            LifeController lifeController = FindObjectOfType<LifeController>();
+            if (lifeController != null)
+            {
+                lifeController.IncreaseLife(5f); // Aumenta a vida em 5 unidades
+            }
+        }
+
+        if (collider.gameObject.CompareTag("Checkpoint"))
+        {
+            Debug.Log("Passei pelo Checkpoint!!");
+
+            checkpointPassCount++;
+
+            if (checkpointPassCount == 2)
+            {
+                Console.Write("estou dentro do if antes da função activate!!!");
+                // Ativar os objetos de nível 2 na segunda passagem pelo checkpoint
+                ActivateObjNivel2();
+            }
         }
     }
 
-    void OnCollisionExit(Collision collision)
+    void ActivateObjNivel2()
     {
-        // Quando o jogador deixa de colidir com o chão
-        if (collision.gameObject.CompareTag("Ground"))
+        if (level2Objects != null)
         {
-            Console.WriteLine("Não estou no chão!");
-            isGrounded = false;
+            level2Objects.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("ObjLevel2 não encontrado na cena!");
         }
     }
 }

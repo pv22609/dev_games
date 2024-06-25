@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Barreira
+  - Clock
+  - Bottle
+  - ObjLevel2
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

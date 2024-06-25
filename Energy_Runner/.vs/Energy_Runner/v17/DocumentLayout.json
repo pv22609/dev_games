@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|c:\\users\\dgfa1\\desktop\\dev_games\\energy_runner\\assets\\scripts\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|c:\\users\\dgfa1\\desktop\\dev_games\\energy_runner\\assets\\scripts\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|c:\\users\\dgfa1\\desktop\\dev_games\\energy_runner\\assets\\scripts\\menus\\gameover_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\gameover_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|c:\\users\\dgfa1\\desktop\\dev_games\\energy_runner\\assets\\scripts\\menus\\credits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\credits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|c:\\users\\dgfa1\\desktop\\dev_games\\energy_runner\\assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\assets\\scripts\\player\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\assets\\scripts\\player\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\assets\\scripts\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\assets\\scripts\\object_disappear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\object_disappear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93A5098-9D6C-5883-3EAF-5425643E1A58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,41 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameOver_Menu.cs",
-              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\GameOver_Menu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\GameOver_Menu.cs",
-              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\GameOver_Menu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\GameOver_Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
+              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Game.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:57:34.767Z",
+              "WhenOpened": "2024-06-25T20:47:31.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "Credits.cs",
+              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\Credits.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\Credits.cs",
+              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\Credits.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\Credits.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:57:29.297Z",
+              "WhenOpened": "2024-06-25T20:44:52.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TimeController.cs",
-              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\TimeController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeController.cs",
-              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\TimeController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TimeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABZAAAA",
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Menus\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:49:59.858Z",
+              "WhenOpened": "2024-06-25T20:41:23.484Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LifeController.cs",
+              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\LifeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LifeController.cs",
+              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\LifeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LifeController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:32:19.554Z"
             },
             {
               "$type": "Document",
@@ -83,33 +95,21 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovements.cs",
               "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Player\\PlayerMovements.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovements.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwEgAAAAqAAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAwKgAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T15:44:49.029Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Vida.cs",
-              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Player\\Vida.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Vida.cs",
-              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Player\\Vida.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Vida.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "TimeController.cs",
+              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\TimeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeController.cs",
+              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\TimeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:44:17.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Object_Disappear.cs",
-              "DocumentMoniker": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Object_Disappear.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Object_Disappear.cs",
-              "ToolTip": "C:\\Users\\dgfa1\\Desktop\\dev_games\\Energy_Runner\\Assets\\Scripts\\Object_Disappear.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Object_Disappear.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:44:03.964Z"
+              "WhenOpened": "2024-06-23T15:49:59.858Z"
             }
           ]
         }
