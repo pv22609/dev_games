@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 using System;
 using Unity.VisualScripting;
 
@@ -121,7 +122,6 @@ public class ChangeLane : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Barreira"))
         {
-            Debug.Log("Bati numa barreira!!");
             Destroy(collider.gameObject);
 
             // Reduz a vida no LifeController
@@ -134,7 +134,6 @@ public class ChangeLane : MonoBehaviour
 
         if (collider.gameObject.CompareTag("Clock"))
         {
-            Debug.Log("Bati num clock!!");
             Destroy(collider.gameObject);
 
             // Aumenta o tempo no TimeController
@@ -147,7 +146,6 @@ public class ChangeLane : MonoBehaviour
 
         if (collider.gameObject.CompareTag("Bottle"))
         {
-            Debug.Log("Bati numa Bottle!!");
             Destroy(collider.gameObject);
 
             // Aumenta a vida no LifeController
@@ -160,15 +158,17 @@ public class ChangeLane : MonoBehaviour
 
         if (collider.gameObject.CompareTag("Checkpoint"))
         {
-            Debug.Log("Passei pelo Checkpoint!!");
-
             checkpointPassCount++;
 
             if (checkpointPassCount == 2)
             {
-                Console.Write("estou dentro do if antes da função activate!!!");
                 // Ativar os objetos de nível 2 na segunda passagem pelo checkpoint
                 ActivateObjNivel2();
+            }
+            else if (checkpointPassCount == 3)
+            {
+                // Redirecionar para a cena "Winner" na quarta passagem pelo checkpoint
+                SceneManager.LoadScene("Winner");
             }
         }
     }
@@ -178,10 +178,6 @@ public class ChangeLane : MonoBehaviour
         if (level2Objects != null)
         {
             level2Objects.SetActive(true);
-        }
-        else
-        {
-            Debug.LogError("ObjLevel2 não encontrado na cena!");
         }
     }
 }
