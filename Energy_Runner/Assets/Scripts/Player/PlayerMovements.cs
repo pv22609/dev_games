@@ -68,6 +68,10 @@ public class ChangeLane : MonoBehaviour
 
         float elapsedTime = 0f;
 
+        // Encontra a posição correspondente na trilha de destino
+        Vector3 startPos = startLane.EvaluatePositionAtUnit(dollyCart.m_Position, CinemachinePathBase.PositionUnits.Distance);
+        float closestPosOnTargetLane = FindClosestPositionOnPath(targetLane, startPos);
+
         while (elapsedTime < laneChangeDuration)
         {
             elapsedTime += Time.deltaTime;
@@ -76,14 +80,14 @@ public class ChangeLane : MonoBehaviour
             // Interpolação da posição entre a faixa atual e a faixa de destino
             Vector3 newPosition = Vector3.Lerp(
                 startLane.EvaluatePositionAtUnit(dollyCart.m_Position, CinemachinePathBase.PositionUnits.Distance),
-                targetLane.EvaluatePositionAtUnit(dollyCart.m_Position, CinemachinePathBase.PositionUnits.Distance),
+                targetLane.EvaluatePositionAtUnit(closestPosOnTargetLane, CinemachinePathBase.PositionUnits.Distance),
                 t
             );
 
             // Interpolação da rotação entre a faixa atual e a faixa de destino
             Quaternion newRotation = Quaternion.Lerp(
                 startLane.EvaluateOrientationAtUnit(dollyCart.m_Position, CinemachinePathBase.PositionUnits.Distance),
-                targetLane.EvaluateOrientationAtUnit(dollyCart.m_Position, CinemachinePathBase.PositionUnits.Distance),
+                targetLane.EvaluateOrientationAtUnit(closestPosOnTargetLane, CinemachinePathBase.PositionUnits.Distance),
                 t
             );
 
@@ -94,7 +98,28 @@ public class ChangeLane : MonoBehaviour
         }
 
         dollyCart.m_Path = targetLane;
+        dollyCart.m_Position = closestPosOnTargetLane;
         isChangingLane = false;
+    }
+
+    // Função para encontrar a posição mais próxima na trilha de destino
+    float FindClosestPositionOnPath(CinemachinePathBase path, Vector3 targetPosition)
+    {
+        float closestDistance = float.MaxValue;
+        float closestPosition = 0f;
+        float stepSize = 1f; // Ajuste conforme necessário para precisão
+
+        for (float pos = 0f; pos < path.PathLength; pos += stepSize)
+        {
+            float distance = Vector3.Distance(targetPosition, path.EvaluatePositionAtUnit(pos, CinemachinePathBase.PositionUnits.Distance));
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestPosition = pos;
+            }
+        }
+
+        return closestPosition;
     }
 
     void OnCollisionEnter(Collision collision)
